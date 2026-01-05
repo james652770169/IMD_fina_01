@@ -34,9 +34,9 @@ st.markdown(""""
 
         """)
 st.write("輸入圖片由Teachable Machine訓練!")
-st.image("Picture/第2章01.png")
+st.image("picture/第2章01.png")
 st.write("測試訓練結果!")
-st.image("Picture/第2章02.png")
+st.image("picture/第2章02.png")
 
 st.markdown('### 匯出Keras模型')
 code = """
@@ -543,4 +543,5 @@ with st.expander("點擊展開完整程式碼"):
 
 
 st.header("2.5 成果展示")
+
 st.video("videos/video04.mp4")
